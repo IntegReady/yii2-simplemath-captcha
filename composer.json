@@ -1,5 +1,5 @@
 {
-    "name": "hreitsma/yii2-simplemath-captcha",
+    "name": "legront/yii2-simplemath-captcha",
     "description": "Simple Math Captcha",
     "keywords": ["yii2", "captcha", "math"],
     "type": "yii2-extension",

@@ -1,6 +1,6 @@
 <?php
 
-namespace hr\captcha;
+namespace legront\captcha;
 
 use Yii;
 use yii\web\Response;
