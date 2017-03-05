@@ -9,13 +9,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist hreitsma/yii2-simplemath-captcha "dev-master"
+php composer.phar require --prefer-dist integready/yii2-simplemath-captcha "dev-master"
 ```
 
 or add
 
 ```
-"hreitsma/yii2-simplemath-captcha": "dev-master"
+"integready/yii2-simplemath-captcha": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -32,7 +32,7 @@ public function actions()
 	return [
             ...
             'captcha' => [
-                'class' => 'hr\captcha\CaptchaAction',
+                'class' => 'integready\simplemathcaptcha\CaptchaAction',
                 'operators' => ['+','-','*'],
                 'maxValue' => 10,
                 'fontSize' => 18,

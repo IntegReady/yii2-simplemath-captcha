@@ -34,6 +34,8 @@ class CaptchaAction extends \yii\captcha\CaptchaAction
      */
     public function init()
     {
+        GlobalVar::$dirfonts = __DIR__ . '/fonts';
+        GlobalVar::$dirimg   = __DIR__ . '/img';
     }
 
     /**

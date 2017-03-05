@@ -8,8 +8,8 @@ namespace integready\simplemathcaptcha;
  */
 class GlobalVar
 {
-    public static $dirfonts   = __DIR__ . '/fonts';
-    public static $dirimg     = __DIR__ . '/img';   // absolute path to the images directory
+    public static $dirfonts;
+    public static $dirimg;   // absolute path to the images directory
     public static $symboles   = [
         '~'               => ' ',
         'alpha'           => '&#174;',
